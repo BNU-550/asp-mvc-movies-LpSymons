@@ -12,5 +12,7 @@ namespace mvc_movies.Data
             : base(options)
         {
         }
+
+        public DbSet<Movie> Movies { get; set; }
     }
 }
